@@ -23,7 +23,11 @@
           LAUNCHER_HOME_SCREEN_ROTATION_DISABLED(616)
         -->
 
-    <SwitchPreference
+    <!--
+      LAUNCHER_HOME_SCREEN_ROTATION_ENABLED(615)
+      LAUNCHER_HOME_SCREEN_ROTATION_DISABLED(616)
+    -->  
+  <SwitchPreference
         android:key="pref_allowRotation"
         android:title="@string/allow_rotation_title"
         android:summary="@string/allow_rotation_desc"
@@ -67,6 +71,10 @@
         android:summary="@string/pref_show_google_now_summary"
         android:title="@string/title_show_google_app" />
 
+	<Preference
+        android:key="pref_trust_apps"
+        android:title="@string/trust_apps_manager_name" />
+    
     <androidx.preference.PreferenceScreen
         android:persistent="false"
         android:title="@string/suggestion_pref_screen_title"
