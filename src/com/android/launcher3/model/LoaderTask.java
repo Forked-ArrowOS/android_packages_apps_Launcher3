@@ -116,7 +116,7 @@ import java.util.concurrent.CancellationException;
 public class LoaderTask implements Runnable {
     private static final String TAG = "LoaderTask";
 
-    private static final boolean DEBUG = true;
+    private static final boolean DEBUG = false;
 
     protected final LauncherAppState mApp;
     private final AllAppsList mBgAllAppsList;
